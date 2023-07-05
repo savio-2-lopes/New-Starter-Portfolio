@@ -353,12 +353,12 @@ export const SunIcon: React.FC<Props> = ({ className, ...rest }) => (
       mask="url(#lineMdSunnyFilledLoopToMoonFilledLoopTransition1)"
     >
       <motion.g
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-        >
-          <motion.path attributeName="opacity" to={1} />
-        </motion.g>
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5 }}
+      >
+        <motion.path attributeName="opacity" to={1} />
+      </motion.g>
       <animate
         fill="freeze"
         attributeName="r"
@@ -455,7 +455,13 @@ export const MoonIcon: React.FC<Props> = ({ className, ...rest }) => (
       strokeWidth="2"
     >
       <path d="M7 6 C7 12.08 11.92 17 18 17 C18.53 17 19.05 16.96 19.56 16.89 C17.95 19.36 15.17 21 12 21 C7.03 21 3 16.97 3 12 C3 8.83 4.64 6.05 7.11 4.44 C7.04 4.95 7 5.47 7 6 Z" />
-      <set attributeName="opacity" begin="0.6s" to="0" />
+      <motion.animate
+        attributeName="opacity"
+        begin="0.6s"
+        to="0"
+        fill="freeze"
+        dur="0.01s"
+      />
     </g>
     <mask id="lineMdMoonFilledToSunnyFilledLoopTransition0">
       <circle cx="12" cy="12" r="12" fill="#fff" />
@@ -506,15 +512,16 @@ export const MoonIcon: React.FC<Props> = ({ className, ...rest }) => (
         />
       </circle>
     </mask>
-    <circle
+    <motion.circle
       cx="12"
       cy="12"
       r="10"
       fill="currentColor"
       mask="url(#lineMdMoonFilledToSunnyFilledLoopTransition0)"
-      opacity="0"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.6 }}
     >
-      <set attributeName="opacity" begin="0.6s" to="1" />
       <animate
         fill="freeze"
         attributeName="r"
@@ -522,7 +529,7 @@ export const MoonIcon: React.FC<Props> = ({ className, ...rest }) => (
         dur="0.4s"
         values="10;6"
       />
-    </circle>
+    </motion.circle>
   </svg>
 );
 
