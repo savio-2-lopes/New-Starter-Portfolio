@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Logo from "./Logo";
 import { usePathname } from "next/navigation";
 import {
   GithubIcon,
@@ -278,10 +277,6 @@ const Navbar = () => {
       ) : (
         ""
       )}
-
-      <div className="absolute top-2 left-[50%] translate-x-[-50%]">
-        <Logo />
-      </div>
     </header>
   );
 };
