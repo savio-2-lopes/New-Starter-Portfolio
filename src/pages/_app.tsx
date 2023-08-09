@@ -1,5 +1,4 @@
 import Footer from "@/components/Footer";
-import HireMe from "@/components/HireMe";
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
 import { AnimatePresence } from "framer-motion";

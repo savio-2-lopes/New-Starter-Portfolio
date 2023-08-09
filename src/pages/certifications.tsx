@@ -5,7 +5,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 import ccnaIntroductionNetwork from "../../public/image/certifications/CCNA-Introduction-to-Network.png";
 import programaCiberEducacao2022 from "../../public/image/certifications/Certificado-Programa-CiberEducação-Cisco-Brasil.png";
@@ -252,7 +251,6 @@ const certifications = () => {
               />
             </div>
           </div>
-          <HireMe />
         </Layout>
       </main>
     </>

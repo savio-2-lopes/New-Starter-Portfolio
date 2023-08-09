@@ -5,7 +5,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 
 import SpotifyClonewithNextJS from "../../public/image/projects/Spotify-Clone-with-Next.JS.gif";
@@ -419,7 +418,6 @@ const projects = () => {
               />
             </div>
           </div>
-          <HireMe />
         </Layout>
       </main>
     </>

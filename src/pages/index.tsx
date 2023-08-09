@@ -4,7 +4,6 @@ import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
-import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 import profileImage from "../../public/image/profile/profileHome.png";
 
@@ -88,7 +87,6 @@ export default function Home() {
           </div>
         </Layout>
 
-        <HireMe />
       </main>
     </>
   );

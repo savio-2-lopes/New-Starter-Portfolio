@@ -8,7 +8,6 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import profileImage from "../../public/image/profile/profileImg.png";
 import { motion } from "framer-motion";
-import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FrameImage = motion(Image);
@@ -173,7 +172,6 @@ const about = () => {
           </div>
           <Experience />
           <Education />
-          <HireMe />
         </Layout>
       </main>
     </>

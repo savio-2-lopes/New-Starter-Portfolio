@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import HireMe from "@/components/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 import tgImg from "../../public/image/article/tg.png";
 
@@ -182,7 +181,6 @@ const articles = () => {
               img={tgImg}
             />
           </ul>
-          <HireMe />
         </Layout>
       </main>
     </>
