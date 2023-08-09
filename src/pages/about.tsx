@@ -89,8 +89,8 @@ const about = () => {
                 Olá, prazer em conhecê-los! Sou Savio Lopes e tenho mais de 2
                 anos de experiência profissional em Desenvolvimento de Software,
                 incluindo estágios em empresas como Cazalab, Mais Top Estética,
-                Slideworks, Object1ve e atuação como Desenvolvedor
-                Front-End Júnior na Private Code Soluções Digitais.
+                Slideworks, Object1ve e atuação como Desenvolvedor Júnior na
+                empresa Private Code Soluções Digitais e na empresa 4.Events.
               </p>
 
               <div className="my-4 font-medium">
@@ -136,7 +136,7 @@ const about = () => {
 
               <div className="my-4 font-medium">
                 <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Outras habilidades:
+                  Outras habilidades:
                 </h2>
                 <ul>
                   <li>- Experiência em trabalho remoto;</li>

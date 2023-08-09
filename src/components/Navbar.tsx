@@ -6,7 +6,6 @@ import {
   LinkedInIcon,
   MoonIcon,
   SunIcon,
-  TwitterIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -167,15 +166,6 @@ const Navbar = () => {
           >
             <InstagramIcon />
           </motion.a>
-          <motion.a
-            href="https://twitter.com/savio_dev_lopes"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3"
-          >
-            <TwitterIcon />
-          </motion.a>
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -249,15 +239,6 @@ const Navbar = () => {
               className="w-6 mx-3 bg-light rounded-full"
             >
               <InstagramIcon />
-            </motion.a>
-            <motion.a
-              href="https://twitter.com/savio_dev_lopes"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3"
-            >
-              <TwitterIcon />
             </motion.a>
 
             <button

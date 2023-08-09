@@ -79,6 +79,14 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Desenvolvedor Fullstack Jr"
+            time="2023-2023"
+            address="Campinas, SP"
+            company="4.Events"
+            companyLink="https://www.4.events/pt-br"
+            work="Como Desenvolvedor Fullstack Jr, eu contribuo para a manutenção de sistemas web e para o desenvolvimento de novas funcionalidades."
+          />
+          <Details
             position="Estagiário em AdTech"
             time="2023-2023"
             address="Cruzeiro, SP"
