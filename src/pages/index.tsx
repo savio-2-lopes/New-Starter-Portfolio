@@ -54,15 +54,15 @@ export default function Home() {
 
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Desenvolvedor Fullstack Jr | Mobile & Web"
+                text="Desenvolvedor Fullstack | Mobile & Web"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs ">
                 Meu nome é Savio Lopes, formado em Análise e Desenvolvimento de
-                Sistemas e possuo mais de 2 anos de experiência profissional na
+                Sistemas e possuo mais de 3 anos de experiência profissional na
                 área de Desenvolvimento de Software. Durante esse período, atuei
                 como estagiário em diferentes empresas e também possuo
-                experiências como Desenvolvedor Fullstack Jr.
+                experiências como Desenvolvedor Fullstack.
               </p>
 
               <div className="flex items-center self-start mt-2 lg:self-center">

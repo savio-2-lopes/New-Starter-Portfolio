@@ -85,7 +85,7 @@ const about = () => {
               </h2>
 
               <p className="font-medium">
-                Olá, prazer em conhecê-los! Sou Savio Lopes e tenho mais de 2
+                Olá, prazer em conhecê-los! Sou Savio Lopes e tenho mais de 3
                 anos de experiência profissional em Desenvolvimento de Software,
                 incluindo estágios em empresas como Cazalab, Mais Top Estética,
                 Slideworks, Object1ve e atuação como Desenvolvedor Júnior na
