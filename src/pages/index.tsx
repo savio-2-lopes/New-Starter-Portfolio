@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Savio Lopes - Desenvolvedor Web | Portfolio</title>
         <meta name="description" content="Conheça o portfólio de Savio Lopes, desenvolvedor web especializado em tecnologias modernas como Next.js, React e Node.js." />
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="language" content="Portuguese" />
@@ -29,18 +29,6 @@ export default function Home() {
         <meta name="twitter:description" content="Conheça o portfólio de Savio Lopes, desenvolvedor web especializado em tecnologias modernas como Next.js, React e Node.js." />
         <meta name="twitter:image" content="https://savioaugulopes.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofileImg.8c67d284.png&w=640&q=75" />
         <meta name="robots" content="index, follow" />
-        <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "Person",
-          "name": "Savio Lopes",
-          "url": "https://savioaugulopes.vercel.app",
-          "sameAs": [
-            "https://www.linkedin.com/in/savio-lopes//",
-            "https://github.com/savio-2-lopes"
-          ]
-        }
-        </script>
       </Head>
 
       <TransitionEffect />
