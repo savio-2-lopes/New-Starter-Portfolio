@@ -36,13 +36,12 @@ export default function Home() {
           "name": "Savio Lopes",
           "url": "https://savioaugulopes.vercel.app",
           "sameAs": [
-            "https://www.linkedin.com/in/saviolopes/",
-            "https://github.com/saviolopes"
+            "https://www.linkedin.com/in/savio-lopes//",
+            "https://github.com/savio-2-lopes"
           ]
         }
         </script>
       </Head>
-
 
       <TransitionEffect />
 
