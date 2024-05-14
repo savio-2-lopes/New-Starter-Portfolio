@@ -11,31 +11,38 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Savio Lopes - Portfolio</title>
-        <meta name="description" content="Savio Lopes - Portfolio" />
-        <link
-          rel="canonical"
-          href="https://savioaugustolopes.netlify.app/portfolio"
-        />
-        <meta property="og:title" content="Savio Lopes - Portfolio" />
-        <meta property="og:description" content="Savio Lopes - Portfolio" />
-        <meta
-          property="og:url"
-          content="https://savioaugustolopes.netlify.app/portfolio"
-        />
+        <title>Savio Lopes - Desenvolvedor Web | Portfolio</title>
+        <meta name="description" content="Conheça o portfólio de Savio Lopes, desenvolvedor web especializado em tecnologias modernas como Next.js, React e Node.js." />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="language" content="Portuguese" />
+        <meta name="author" content="Savio Lopes" />
+        <meta name="publisher" content="Savio Lopes" />
+        <meta property="og:title" content="Savio Lopes - Desenvolvedor Web | Portfolio" />
+        <meta property="og:description" content="Conheça o portfólio de Savio Lopes, desenvolvedor web especializado em tecnologias modernas como Next.js, React e Node.js." />
+        <meta property="og:url" content="https://savioaugulopes.vercel.app" />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://example.com/your-image.jpg"
-        />
+        <meta property="og:image" content="https://savioaugulopes.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofileImg.8c67d284.png&w=640&q=75" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Savio Lopes - Portfolio" />
-        <meta name="twitter:description" content="Savio Lopes - Portfolio" />
-        <meta
-          name="twitter:image"
-          content="https://example.com/your-image.jpg"
-        />
+        <meta name="twitter:title" content="Savio Lopes - Desenvolvedor Web | Portfolio" />
+        <meta name="twitter:description" content="Conheça o portfólio de Savio Lopes, desenvolvedor web especializado em tecnologias modernas como Next.js, React e Node.js." />
+        <meta name="twitter:image" content="https://savioaugulopes.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofileImg.8c67d284.png&w=640&q=75" />
+        <meta name="robots" content="index, follow" />
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "name": "Savio Lopes",
+          "url": "https://savioaugulopes.vercel.app",
+          "sameAs": [
+            "https://www.linkedin.com/in/saviolopes/",
+            "https://github.com/saviolopes"
+          ]
+        }
+        </script>
       </Head>
+
 
       <TransitionEffect />
 
