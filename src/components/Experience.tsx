@@ -95,12 +95,12 @@ const Experience = () => {
             work="Auxílio na manutenção de anúncios utilizando ferramentas do Google e no desenvolvimento de Temas em Wordpress."
           />
           <Details
-            position="Desenvolvedor Front-End Júnior"
+            position="Desenvolvedor Fullstack Jr"
             time="2022-2023"
             address="São Carlos, SP"
             company="Private Code Soluções Digitais"
             companyLink="https://privatecode.com.br/"
-            work="Como Desenvolvedor Front-End Júnior na Software House, tive a responsabilidade de realizar manutenção em sistemas web e desenvolver novas funcionalidades, utilizando tecnologias modernas e avançadas de programação"
+            work="Como Desenvolvedor Fullstack Jr na Software House, tive a responsabilidade de realizar manutenção em sistemas web e desenvolver novas funcionalidades, utilizando tecnologias modernas e avançadas de programação"
           />
           <Details
             position="Estagiário em Desenvolvimento de Software"
