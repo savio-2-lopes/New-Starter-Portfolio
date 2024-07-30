@@ -61,7 +61,7 @@ export default function Home() {
 
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="document/Savio_Lopes-CV.pdf"
+                  href="/document/Savio_Lopes-CV.pdf"
                   className="flex items-center bg-dark dark:bg-light text-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:dark:text-light border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download="Savio_Lopes-CV.pdf"
                 >
