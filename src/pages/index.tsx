@@ -63,6 +63,7 @@ export default function Home() {
                 <Link
                   href="/document/Savio_Lopes-CV.pdf"
                   className="flex items-center bg-dark dark:bg-light text-light dark:text-dark p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark hover:dark:text-light border-2 border-solid border-transparent hover:border-dark hover:dark:border-light md:p-2 md:px-4 md:text-base"
+                  target={"_blank"}
                   download="Savio_Lopes-CV.pdf"
                 >
                   Currículo <LinkArrow className={"w-6 ml-1"} />
