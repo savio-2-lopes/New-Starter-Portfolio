@@ -58,7 +58,7 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Software Engineering"
+            type="Graduate in Software Engineering"
             time="2023-2026"
             place="Estácio"
             info="The Software Engineering course focuses on computing geared towards the specification, development, maintenance, and creation of software."
@@ -67,10 +67,10 @@ const Education = () => {
             type="Postgraduate in Computer Engineering"
             time="2024-2024"
             place="Uninter"
-            info="The Software Engineering course focuses on computing geared towards the specification, development, maintenance, and creation of software."
+            info="The Postgraduate in Computer Engineering course focuses on computing geared towards the specification, maintenance, and creation of software."
           />
           <Details
-            type="Systems Analysis and Development"
+            type="Graduate in Systems Analysis and Development"
             time="2019-2022"
             place="Fatec Profº Waldomiro May"
             info="Undergraduate program focused on creating, designing, developing, and configuring programs, software, and systems for numerous companies."
