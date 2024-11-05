@@ -119,22 +119,22 @@ const Navbar = () => {
           />
           <CustomLink
             href="/about"
-            title="Sobre"
+            title="About"
             className="mx-4 dark:text-light sm:mx-1"
           />
           <CustomLink
             href="/projects"
-            title="Projetos"
+            title="Projects"
             className="mx-4 dark:text-light sm:mx-1"
           />
           <CustomLink
             href="/articles"
-            title="Artigos"
+            title="Articles"
             className="mx-4 dark:text-light sm:mx-1"
           />
           <CustomLink
             href="/certifications"
-            title="Certificações"
+            title="Certifications"
             className="ml-4 dark:text-light sm:mx-1"
           />
         </nav>
@@ -192,22 +192,22 @@ const Navbar = () => {
             <CustomMobileLink href="/" title="Home" toggle={handleClick} />
             <CustomMobileLink
               href="/about"
-              title="Sobre"
+              title="About"
               toggle={handleClick}
             />
             <CustomMobileLink
               href="/projects"
-              title="Projetos"
+              title="Projects"
               toggle={handleClick}
             />
             <CustomMobileLink
               href="/articles"
-              title="Artigos"
+              title="Articles"
               toggle={handleClick}
             />
             <CustomMobileLink
               href="/certifications"
-              title="Certificações"
+              title="Certifications"
               toggle={handleClick}
             />
           </nav>

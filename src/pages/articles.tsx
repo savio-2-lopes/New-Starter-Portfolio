@@ -124,17 +124,17 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>Savio Lopes - Artigos</title>
-        <meta name="description" content="Savio Lopes - Artigos" />
+        <title>Savio Lopes - Article</title>
+        <meta name="description" content="Savio Lopes - Articles" />
         <link
           rel="canonical"
-          href="https://savioaugustolopes.netlify.app/portfolio"
+          href="https://savioaugulopes.vercel.app/portfolio"
         />
-        <meta property="og:title" content="Savio Lopes - Artigos" />
-        <meta property="og:description" content="Savio Lopes - Artigos" />
+        <meta property="og:title" content="Savio Lopes - Articles" />
+        <meta property="og:description" content="Savio Lopes - Articles" />
         <meta
           property="og:url"
-          content="https://savioaugustolopes.netlify.app/portfolio"
+          content="https://savioaugulopes.vercel.app/portfolio"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -142,8 +142,8 @@ const articles = () => {
           content="https://example.com/your-image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Savio Lopes - Artigos" />
-        <meta name="twitter:description" content="Savio Lopes - Artigos" />
+        <meta name="twitter:title" content="Savio Lopes - Articles" />
+        <meta name="twitter:description" content="Savio Lopes - Articles" />
         <meta
           name="twitter:image"
           content="https://example.com/your-image.jpg"
@@ -155,15 +155,13 @@ const articles = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
         <Layout className="pt-16">
           <AnimatedText
-            text="Meus artigos"
+            text="My Articles"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <ul className="grid grid-cols-3 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              title="Artigo Científico do meu Trabalho de Graduação"
-              summary="O artigo científico é do meu trabalho de graduação,
-              contém os materiais utilizados e como eles foram aplicados no
-              desenvolvimento, tem uma fundamentação teórica."
+              title="Scientific Article from My Graduation Project"
+              summary="This scientific article is based on my graduation project, containing the materials used and how they were applied in the development, along with a theoretical foundation."
               time="40 min read"
               link="https://www.fateccruzeiro.edu.br/projetos/acervo/68cbd3dc47a91f1333086e0f34777229.pdf"
               img={tgImg}
@@ -171,11 +169,11 @@ const articles = () => {
           </ul>
 
           <h2 className="font-bold text-4xl w-full dark:text-light text-center my-16 mt-32">
-            Todos os Artigos
+            All Articles
           </h2>
           <ul>
             <Article
-              title="Artigo Científico do meu Trabalho de Graduação"
+              title="Scientific Article from My Graduation Project"
               date="Dezembro 12, 2022"
               link="https://www.fateccruzeiro.edu.br/projetos/acervo/68cbd3dc47a91f1333086e0f34777229.pdf"
               img={tgImg}

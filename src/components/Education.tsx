@@ -48,7 +48,7 @@ const Education = () => {
   return (
     <div className="my-64">
       <h2 className="font-bold text-8xl mb-32 w-full dark:text-light text-center md:text-6xl xs:text-4xl md:mb-16">
-        Formação Acadêmica
+        Academic Background
       </h2>
 
       <div ref={ref} className="w-[75%] mx-auto relative lg:w-[90%] md:w-full">
@@ -58,17 +58,24 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Engenharia de Software"
+            type="Software Engineering"
             time="2023-2026"
             place="Estácio"
-            info="O curso de Engenharia de Software aborda a computação voltada para a especificação, desenvolvimento, manutenção e criação de softwares."
+            info="The Software Engineering course focuses on computing geared towards the specification, development, maintenance, and creation of software."
           />
           <Details
-            type="Análise e Desenvolvimento de Sistemas"
+            type="Postgraduate in Computer Engineering"
+            time="2024-2024"
+            place="Uninter"
+            info="The Software Engineering course focuses on computing geared towards the specification, development, maintenance, and creation of software."
+          />
+          <Details
+            type="Systems Analysis and Development"
             time="2019-2022"
             place="Fatec Profº Waldomiro May"
-            info="Graduação focada em criar, projetar, desenvolver e configurar programas, softwares e sistemas para inúmeras empresas."
+            info="Undergraduate program focused on creating, designing, developing, and configuring programs, software, and systems for numerous companies."
           />
+
         </ul>
       </div>
     </div>

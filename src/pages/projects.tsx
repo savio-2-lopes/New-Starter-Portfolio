@@ -171,17 +171,17 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Savio Lopes - Projetos</title>
-        <meta name="description" content="Savio Lopes - Projetos" />
+        <title>Savio Lopes - Portfolio Projects</title>
+        <meta name="description" content="Savio Lopes - Portfolio Projects" />
         <link
           rel="canonical"
-          href="https://savioaugustolopes.netlify.app/projetos"
+          href="https://savioaugulopes.vercel.app/Projects"
         />
-        <meta property="og:title" content="Savio Lopes - Projetos" />
-        <meta property="og:description" content="Savio Lopes - Projetos" />
+        <meta property="og:title" content="Savio Lopes - Portfolio Projects" />
+        <meta property="og:description" content="Savio Lopes - Portfolio Projects" />
         <meta
           property="og:url"
-          content="https://savioaugustolopes.netlify.app/Projetos"
+          content="https://savioaugulopes.vercel.app/Projects"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -189,12 +189,8 @@ const projects = () => {
           content="https://example.com/your-image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Savio Lopes - Projetos" />
-        <meta name="twitter:description" content="Savio Lopes - Projetos" />
-        <meta
-          name="twitter:image"
-          content="https://example.com/your-image.jpg"
-        />
+        <meta name="twitter:title" content="Savio Lopes - Portfolio Projects" />
+        <meta name="twitter:description" content="Savio Lopes - Portfolio Projects" />
       </Head>
 
       <TransitionEffect />
@@ -202,7 +198,7 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center">
         <Layout className="py-16">
           <AnimatedText
-            text="Principais Projetos!"
+            text="Principais Projects!"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
@@ -213,7 +209,7 @@ const projects = () => {
                 summary="Clone of the Spotify platform, developed using Next.JS, Tailwind.CSS and the Spotify API, to obtain playlists from the logged in user"
                 github="https://github.com/savio-2-lopes/Spotify-Clone-with-Next.JS"
                 link="https://spotify-clone-next.netlify.app"
-                type="Projetos Recentes"
+                type="Projects Recentes"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -222,7 +218,7 @@ const projects = () => {
                 img={UICloneTwitter}
                 github="https://github.com/savio-2-lopes/UI-Clone-Twitter"
                 link="https://tsclone-react-twitter.netlify.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -231,7 +227,7 @@ const projects = () => {
                 img={QuizImersaoReact}
                 github="https://github.com/savio-2-lopes/Quiz-Imersao-React"
                 link="https://quiz-imersao-react-savio-2-lopes.vercel.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
 
@@ -241,7 +237,7 @@ const projects = () => {
                 img={SimpleFlaskEncryptionCiphers}
                 github="https://github.com/savio-2-lopes/Simple-Flask-Encryption-Ciphers"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -250,7 +246,7 @@ const projects = () => {
                 img={SearchMethodsAIFlask}
                 github="https://github.com/savio-2-lopes/Search-Methods-AI-Flask"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -259,7 +255,7 @@ const projects = () => {
                 img={FluxFin}
                 github="https://github.com/savio-2-lopes/Flux-Fin"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -268,7 +264,7 @@ const projects = () => {
                 img={Proffy}
                 github="https://github.com/savio-2-lopes/Proffy"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -277,7 +273,7 @@ const projects = () => {
                 img={ProffyMobile}
                 github="https://github.com/savio-2-lopes/Proffy"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -286,7 +282,7 @@ const projects = () => {
                 img={MoveIt}
                 github="https://github.com/savio-2-lopes/moveit"
                 link="https://move-it-savio-2-lopes.vercel.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -295,7 +291,7 @@ const projects = () => {
                 img={Letmeask}
                 github="https://github.com/savio-2-lopes/Letmeask"
                 link="https://nlwtogether-813ac.web.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -304,7 +300,7 @@ const projects = () => {
                 img={IgNews}
                 github="https://github.com/savio-2-lopes/Ig.News"
                 link="https://ig-news-onx9bvokw-savio-2-lopes.vercel.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -313,7 +309,7 @@ const projects = () => {
                 img={Happy}
                 github="https://github.com/savio-2-lopes/Happy"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -322,7 +318,7 @@ const projects = () => {
                 img={HappyMobile}
                 github="https://github.com/savio-2-lopes/Happy"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -331,7 +327,7 @@ const projects = () => {
                 img={GoRealtimeChat}
                 github="https://github.com/savio-2-lopes/Go-Realtime-Chat"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
 
@@ -341,7 +337,7 @@ const projects = () => {
                 img={GoogleDriveCloneSemanaJavascriptExpert05}
                 github="https://github.com/savio-2-lopes/Google-Drive-Clone-Semana-Javascript-Expert-05"
                 link="https://gdrive-webapp-ew.herokuapp.com"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -350,7 +346,7 @@ const projects = () => {
                 img={GithubExplorer}
                 github="https://github.com/savio-2-lopes/Github-Explorer"
                 link="https://github-explorer-rose.vercel.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -359,7 +355,7 @@ const projects = () => {
                 img={EventPlatformIgniteLab}
                 github="https://github.com/savio-2-lopes/Github-Explorer"
                 link="https://github-explorer-rose.vercel.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -368,7 +364,7 @@ const projects = () => {
                 img={DTMoney}
                 github="https://github.com/savio-2-lopes/DTMoney"
                 link="https://dtmonie-frontend.netlify.app"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -377,7 +373,7 @@ const projects = () => {
                 img={DevelopmentCRUDLaravelFramework}
                 github="https://github.com/savio-2-lopes/Development-CRUD-Laravel-Framework"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -386,7 +382,7 @@ const projects = () => {
                 img={DevelopmentFrontendBladeLaravelFramework}
                 github="https://github.com/savio-2-lopes/Development-Frontend-Blade-Laravel-Framework"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
 
@@ -396,7 +392,7 @@ const projects = () => {
                 img={DevFinaces}
                 github="https://github.com/savio-2-lopes/Dev.Finaces"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -405,7 +401,7 @@ const projects = () => {
                 img={BeTheHero}
                 github="https://github.com/savio-2-lopes/bethehero"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -414,7 +410,7 @@ const projects = () => {
                 img={BeTheHeroMobile}
                 github="https://github.com/savio-2-lopes/bethehero"
                 link="/"
-                type="Projetos"
+                type="Projects"
               />
             </div>
           </div>

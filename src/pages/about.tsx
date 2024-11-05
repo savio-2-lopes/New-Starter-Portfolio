@@ -44,17 +44,17 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Savio Lopes - Sobre</title>
-        <meta name="description" content="Savio Lopes - Sobre" />
+        <title>Savio Lopes - About</title>
+        <meta name="description" content="Savio Lopes - About" />
         <link
           rel="canonical"
-          href="https://savioaugustolopes.netlify.app/portfolio"
+          href="https://savioaugulopes.vercel.app/portfolio"
         />
-        <meta property="og:title" content="Savio Lopes - Sobre" />
-        <meta property="og:description" content="Savio Lopes - Sobre" />
+        <meta property="og:title" content="Savio Lopes - About" />
+        <meta property="og:description" content="Savio Lopes - About" />
         <meta
           property="og:url"
-          content="https://savioaugustolopes.netlify.app/portfolio"
+          content="https://savioaugulopes.vercel.app/portfolio"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -62,8 +62,8 @@ const about = () => {
           content="https://example.com/your-image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Savio Lopes - Sobre" />
-        <meta name="twitter:description" content="Savio Lopes - Sobre" />
+        <meta name="twitter:title" content="Savio Lopes - About" />
+        <meta name="twitter:description" content="Savio Lopes - About" />
         <meta
           name="twitter:image"
           content="https://example.com/your-image.jpg"
@@ -75,83 +75,66 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText
-            text="Um pouco sobre mim"
+            text="About me"
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-5xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 dark:text-light sm:gap-8">
             <div className="col-span-5 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Biografia
+                Resume
               </h2>
 
               <p className="font-medium">
-                Olá, prazer em conhecê-los! Sou Savio Lopes e tenho mais de 3
-                anos de experiência profissional em Desenvolvimento de Software,
-                incluindo estágios em empresas como Cazalab, Mais Top Estética,
-                Slideworks, Object1ve e atuação como Desenvolvedor Júnior na
-                empresa Private Code Soluções Digitais e na empresa 4.Events.
+                Software developer with over 4 years of experience in Engineering and Information Technology, focusing on web development (JavaScript and PHP) and networking. I work in software development, covering the entire application lifecycle, from conception to deployment. I have expertise in front-end and full-stack development, with a proven track record in building robust and efficient solutions.
               </p>
 
               <div className="my-4 font-medium">
                 <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                  Experiência em
+                  Technical Skills
                 </h2>
                 <ul>
-                  <li>- JavaScript e TypeScript;</li>
-                </ul>
-                <ul>
-                  <li>- Sass e CSS-In-JS (styled-components);</li>
+                  <li>- JavaScript, ReactJS, PHP: Development of dynamic web applications with in-depth knowledge of these essential technologies.</li>
                 </ul>
                 <ul>
                   <li>
-                    - Gerenciamento de estado (Redux, Context API e custom
-                    hooks);
+                    - React.js: Creation of interactive UIs using Redux, Context API, and custom hooks for state management.
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    - Testes unitários com Jest, React Testing Library, PhpUnit
-                    e Mocha;
+                    - Mobile Development: Proficiency in Flutter, React Native, and Kotlin for cross-platform app development.
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    - Desenvolvimento móvel para Android com React Native;
+                    - PHP and Backend: Experience with Laravel and Swoole for creating scalable and secure backends.
                   </li>
                 </ul>
                 <ul>
-                  <li>- PHP (frameworks Laravel e CodeIgniter);</li>
+                  <li>- Unit Testing: Hands-on experience with Jest, React Testing Library, Mocha, and Chai.</li>
                 </ul>
                 <ul>
                   <li>
-                    - Criação de componentes reutilizáveis e documentação com
-                    Storybook;
+                    - Databases: Knowledge of Firebase, MongoDB, and SQLite.
                   </li>
                 </ul>
                 <ul>
-                  <li>- Refatoração e depuração (debugging)</li>
+                  <li>- Version Control: Proficiency in Git (GitHub, Azure DevOps, Bitbucket).</li>
                 </ul>
               </div>
 
               <div className="my-4 font-medium">
                 <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                  Outras habilidades:
+                  Additional Skills:
                 </h2>
                 <ul>
-                  <li>- Experiência em trabalho remoto;</li>
-                </ul>
-                <ul>
-                  <li>- Experiência e práticas com Scrum;</li>
-                </ul>
-                <ul>
                   <li>
-                    - Gosto por escrever código bem projetado, testável e
-                    eficiente;
+                    - Remote Collaboration: Effective in agile remote teams, with strong communication and teamwork skills.
                   </li>
                 </ul>
                 <ul>
                   <li>
-                    - Autodidata, apaixonado por aprender, ensinar e criar.
+                    - Adaptability: Highly flexible and proactive approach to learning in dynamic environments.
                   </li>
                 </ul>
               </div>

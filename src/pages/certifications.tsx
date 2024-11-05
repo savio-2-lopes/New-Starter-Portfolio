@@ -145,17 +145,17 @@ const certifications = () => {
   return (
     <>
       <Head>
-        <title>Savio Lopes - Certificações</title>
-        <meta name="description" content="Savio Lopes - Certificações" />
+        <title>Savio Lopes - Certifications</title>
+        <meta name="description" content="Savio Lopes - Certifications" />
         <link
           rel="canonical"
-          href="https://savioaugustolopes.netlify.app/portfolio"
+          href="https://savioaugulopes.vercel.app/portfolio"
         />
-        <meta property="og:title" content="Savio Lopes - Certificações" />
-        <meta property="og:description" content="Savio Lopes - Certificações" />
+        <meta property="og:title" content="Savio Lopes - Certifications" />
+        <meta property="og:description" content="Savio Lopes - Certifications" />
         <meta
           property="og:url"
-          content="https://savioaugustolopes.netlify.app/portfolio"
+          content="https://savioaugulopes.vercel.app/portfolio"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -163,10 +163,10 @@ const certifications = () => {
           content="https://example.com/your-image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Savio Lopes - Certificações" />
+        <meta name="twitter:title" content="Savio Lopes - Certifications" />
         <meta
           name="twitter:description"
-          content="Savio Lopes - Certificações"
+          content="Savio Lopes - Certifications"
         />
         <meta
           name="twitter:image"
@@ -179,7 +179,7 @@ const certifications = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center">
         <Layout className="py-16">
           <AnimatedText
-            text="Certificações!"
+            text="Certifications!"
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
@@ -189,7 +189,7 @@ const certifications = () => {
                 img={ccnaIntroductionNetwork}
                 summary="CCNA - Introduction to Network"
                 link="/"
-                type="Certificações"
+                type="Certifications"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -197,7 +197,7 @@ const certifications = () => {
                 title="Programa  CiberEducação Cisco Brasil 2022"
                 img={programaCiberEducacao2022}
                 link="/"
-                type="Certificações"
+                type="Certifications"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -205,7 +205,7 @@ const certifications = () => {
                 title="Cloud Security"
                 img={cloudSecurity}
                 link="/"
-                type="Certificações"
+                type="Certifications"
               />
             </div>
 
@@ -215,7 +215,7 @@ const certifications = () => {
                 img={desenvolvimentoWebAvancado}
                 summary="Desenvolvimento Web Avançado 2022 com Laravel e Vue"
                 link="/"
-                type="Certificações Recentes"
+                type="Certifications Recentes"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -223,7 +223,7 @@ const certifications = () => {
                 title="Fundamentos do Design da experiência do usuário"
                 img={fundamentoDesign}
                 link="/"
-                type="Certificações"
+                type="Certifications"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -231,7 +231,7 @@ const certifications = () => {
                 title="Ignite Trilha ReactJS"
                 img={igniteReactjs}
                 link="/"
-                type="Certificações"
+                type="Certifications"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -239,7 +239,7 @@ const certifications = () => {
                 title="Network Security"
                 img={networkSecurity}
                 link="/"
-                type="Certificações"
+                type="Certifications"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -247,7 +247,7 @@ const certifications = () => {
                 title="Trilha Especializar do Discover"
                 img={trilhaEspecializarDiscover}
                 link="/"
-                type="Certificações"
+                type="Certifications"
               />
             </div>
           </div>
