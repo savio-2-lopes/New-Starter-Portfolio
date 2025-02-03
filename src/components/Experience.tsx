@@ -80,7 +80,7 @@ const Experience = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             position="Fullstack Developer"
-            time="2023-Current"
+            time="2023-2025"
             address="Campinas, SP"
             company="4.Events"
             companyLink="https://www.4.events/pt-br"

@@ -11,22 +11,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Savio Lopes - Full-Stack Software Developer</title>
-        <meta name="description" content="Savio Lopes' Portfolio - Full-Stack Software Developer Specializing in Modern Web Technologies like Next.js, React, and Node.js." />
+        <title>Savio Lopes - Full-Stack Developer</title>
+        <meta name="description" content="Savio Lopes' Portfolio - Full-Stack Developer Specializing in Modern Web Technologies like Next.js, React, and Node.js." />
         <meta charSet="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="language" content="Portuguese" />
         <meta name="author" content="Savio Lopes" />
         <meta name="publisher" content="Savio Lopes" />
-        <meta property="og:title" content="Savio Lopes - Full-Stack Software Developer" />
-        <meta property="og:description" content="Savio Lopes' Portfolio - Full-Stack Software Developer Specializing in Modern Web Technologies like Next.js, React, and Node.js." />
+        <meta property="og:title" content="Savio Lopes - Full-Stack Developer" />
+        <meta property="og:description" content="Savio Lopes' Portfolio - Full-Stack Developer Specializing in Modern Web Technologies like Next.js, React, and Node.js." />
         <meta property="og:url" content="https://savioaugulopes.vercel.app" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://savioaugulopes.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofileImg.8c67d284.png&w=640&q=75" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Savio Lopes - Full-Stack Software Developer" />
-        <meta name="twitter:description" content="Savio Lopes' Portfolio - Full-Stack Software Developer Specializing in Modern Web Technologies like Next.js, React, and Node.js." />
+        <meta name="twitter:title" content="Savio Lopes - Full-Stack Developer" />
+        <meta name="twitter:description" content="Savio Lopes' Portfolio - Full-Stack Developer Specializing in Modern Web Technologies like Next.js, React, and Node.js." />
         <meta name="twitter:image" content="https://savioaugulopes.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FprofileImg.8c67d284.png&w=640&q=75" />
         <meta name="robots" content="index, follow" />
       </Head>
@@ -48,7 +48,7 @@ export default function Home() {
 
             <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Full-Stack Software Developer | Software Engineering"
+                text="Full-Stack Developer | Software Engineer"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs ">

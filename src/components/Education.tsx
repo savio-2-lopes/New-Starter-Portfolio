@@ -58,12 +58,6 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Graduate in Software Engineering"
-            time="2023-2026"
-            place="Estácio"
-            info="The Software Engineering course focuses on computing geared towards the specification, development, maintenance, and creation of software."
-          />
-          <Details
             type="Postgraduate in Computer Engineering"
             time="2024-2024"
             place="Uninter"
